@@ -25,19 +25,19 @@ It integrates Machine Learning, Generative AI (Gemini API), and Data Science to 
 
 ## Workflow Overview
     
-    Preprocess Delivery Data → Cleans timestamps, adds KPIs (duration, utilization, violations).
+ - Preprocess Delivery Data → Cleans timestamps, adds KPIs (duration, utilization, violations).
     
-    Analyze Performance → Evaluates route efficiency, time windows, and delivery success.
+ - Analyze Performance → Evaluates route efficiency, time windows, and delivery success.
     
-    Cluster Routes → Groups close deliveries using DBSCAN to detect redundant trips.
+ - Cluster Routes → Groups close deliveries using DBSCAN to detect redundant trips.
     
-    Train Predictive Model → Builds a feature-importance model with Random Forest.
+ - Train Predictive Model → Builds a feature-importance model with Random Forest.
     
-    Generate Reports → Prints detailed tables, driver insights, and cost summaries.
+ - Generate Reports → Prints detailed tables, driver insights, and cost summaries.
     
-    Create Visualizations → Exports comparative charts and performance graphs.
+ - Create Visualizations → Exports comparative charts and performance graphs.
     
-    Get AI Recommendations → Calls Gemini API for actionable optimization suggestions.
+ - Get AI Recommendations → Calls Gemini API for actionable optimization suggestions.
 
 ## Example requirements.txt:
 
