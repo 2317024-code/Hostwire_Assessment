@@ -165,5 +165,6 @@ Format as numbered list with metrics:"""
         plt.show()
 
 # Execute
-analysis = DeliveryAI("C:\\Users\\aabij\\OneDrive\\Desktop\\delivery_routes.csv", api_key="AIzaSyCeASJW0fXEHtysdqYdTci_C0-BtmAJ9Wg")
+analysis = DeliveryAI("C:\\Users\\aabij\\OneDrive\\Desktop\\delivery_routes.csv", api_key="GOOPLE_API_KEY")
+
 analysis.generate_comprehensive_report()
