@@ -41,12 +41,17 @@ It integrates Machine Learning, Generative AI (Gemini API), and Data Science to 
 
 ## Example requirements.txt:
 
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-google-generativeai
+  pandas
+  
+  numpy
+  
+  matplotlib
+  
+  seaborn
+  
+  scikit-learn
+  
+  google-generativeai
 
 ## Deliverables
 
